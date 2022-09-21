@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,154 +9,225 @@
     <meta name="description" content="Venta de artículos polirubro">
     <meta name="keywords" content="electrodomestico, aspiradora, polirubro, tienda, aspiradora ">
     <title>TUATIENDAONLINE</title>
+
+    <enlace rel="preconectar" href="https://fonts.googleapis.com">
+        <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+            <enlace href="https: //fonts.googleapis.com/css2? family= Noto+Serif+Georgian:wght@300 & display=swap"
+                rel="stylesheet">
+                <link rel="stylesheet" href="./css/style.css">
+                <script src="https://kit.fontawesome.com/045804ffc4.js" crossorigin="anonymous"></script>
 </head>
-<body>    
-    <header>        
-        
-        <!-- Menu Principal de la Página -->            
+
+<body>
+    <header>
+        <!-- Menu Principal de la Página -->
+
         <div>
-            <img src="./Imagenes/logo tuatienda.png" alt="logo" width="150 px">
-            <span>Tiendaonline</span>
+            <a href="./Index.html">
+                <img class="logo" src="./Imagenes/logo tuatienda.png" alt="logo">
+            </a>
         </div>
-        <nav> 
+        <nav>
             <ul>
                 <li>
-                    <a href="#electrodomesticos">Electrodomésticos</a>                    
+                    <a href="#electrodomesticos">Electrodomésticos</a>
+                    <span> | </span>
                 </li>
                 <li>
-                    <a href="#herramientas">Herramientas</a>                    
+                    <a href="#herramientas">Herramientas</a>
+                    <span> | </span>
                 </li>
                 <li>
-                    <a href="#electronica">Electrónica</a>                    
+                    <a href="#electronica">Electrónica</a>
+                    <span> | </span>
                 </li>
                 <li>
-                    <a href="#pesca">Pesca</a>                    
+                    <a href="#pesca">Pesca</a>
+                    <span> | </span>
                 </li>
                 <li>
-                    <a href="#bazar">Bazar</a>                    
+                    <a href="#bazar">Bazar</a>
                 </li>
-            <div>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
                 <li>
-                    <a href="#ofertas">Ofertas</a>                    
-                </li>
-                <li>
-                    <a href="#informacion">Información</a>                    
-                </li>
-                <li>
-                    <a href="#medios-de-pago">Medios de Pago</a>                    
+                    <a href="#ofertas">Ofertas</a>
+                    <span> | </span>
                 </li>
                 <li>
-                    <a href="#encontranos">Encontranos</a>                    
+                    <a href="#informacion">Información</a>
+                    <span> | </span>
                 </li>
-            </div>
-            </ul>               
-        </nav>             
+                <li>
+                    <a href="#medios-de-pago">Medios de Pago</a>
+                    <span> | </span>
+                </li>
+                <li>
+                    <a href="#encontranos">Encontranos</a>
+                </li>
+            </ul>
+        </nav>
+
     </header>
-    
+
+    <div class="fotos-ofertas">
+        <img src="./Imagenes/Aspiradora.png" alt="aspiradora">
+        <img src="./Imagenes/Horno Electrico.png" alt="horno">
+        <img src="./Imagenes/Juguera.png" alt="juguera">
+        <img src="./Imagenes/Tostadora.png" alt="tostadora">
+    </div>
+
+
     <!-- Secciones del Menu Principal de la Página -->
 
-    <section id="electrodomesticos">
-        <h2> Electrodomésticos </h2>
-        <ul>
-            <li> Cuidado Personal</li>
-            <li> Cocción</li>
-            <li> Climatización</li>
-            <li> Refrigeración</li>            
-        </ul>
-    </section>
+    <div class="rubros">
+        <div class="electrodomesticos">
+            <section id="electrodomesticos">
+                <h2> Electrodomésticos </h2>
+                <ul>
+                    <li> Cuidado Personal</li>
+                    <li> Cocción</li>
+                    <li> Climatización</li>
+                    <li> Refrigeración</li>
+                </ul>
 
-    <section id="herramientas">
-        <h2> Herramientas </h2>
-        <ul>
-            <li> Eléctricas</li>
-            <li> A batería</li>
-            <li> Manuales</li>
-            <li> Jardinería</li>
-        </ul>
-    </section>    
+            </section>
+        </div>
+        <div class="herramientas">
+            <section id="herramientas">
+                <h2> Herramientas </h2>
+                <ul>
+                    <li> Eléctricas</li>
+                    <li> A batería</li>
+                    <li> Manuales</li>
+                    <li> Jardinería</li>
+                </ul>
+            </section>
+        </div>
 
-    <section id="electronica">
-        <h2> Electrónica </h2>
-        <ul>
-            <li> Parlantes</li>
-            <li> Cargadores</li>
-            <li> Auriculares</li>
-            <li> Stereos</li>
-            <li> Joystick</li>
-        </ul>
-    </section>
+        <div class="electronica">
+            <section id="electronica">
+                <h2> Electrónica </h2>
+                <ul>
+                    <li> Parlantes</li>
+                    <li> Cargadores</li>
+                    <li> Auriculares</li>
+                    <li> Stereos</li>
+                    <li> Joystick</li>
+                </ul>
+            </section>
+        </div>
+        <div class="pesca">
+            <section id="pesca">
+                <h2> Pesca </h2>
+                <ul>
+                    <li> Cañas </li>
+                    <li> Reel </li>
+                    <li> Señuelos </li>
+                    <li> Boyas </li>
+                    <li> Redes </li>
+                </ul>
+            </section>
+        </div>
+        <div class="bazar">
+            <section id="bazar">
+                <h2> Bazar </h2>
+                <ul>
+                    <li> Fuentes</li>
+                    <li> Ralladores</li>
+                    <li> Destapadores</li>
+                    <li> Espatulas</li>
+                    <li> Escurridores</li>
+                </ul>
+            </section>
+        </div>
+    </div>
 
-    <section id="pesca">
-        <h2> Pesca </h2>
-        <ul>
-            <li> Cañas </li>
-            <li> Reel </li>
-            <li> Señuelos </li>
-            <li> Boyas </li>
-            <li> Redes </li>
-        </ul>
-    </section>
-
-    <section id="bazar">
-        <h2> Bazar </h2>
-        <ul>
-            <li> Fuentes</li>
-            <li> Ralladores</li>
-            <li> Destapadores</li>
-            <li> Espatulas</li>
-            <li> Escurridores</li>
-        </ul>
-    </section>
 
     <section id="ofertas">
-            <h2> Ofertas </h2>              
-            
-            <h3> Horno Yelmo 52 lts</h3>
-            <img src="./Imagenes/Horno Electrico.png" alt="horno electrico" width="100px" >      
-            <p> Horno con doble anafe color negro aprovecha con Visa en 12 cuotas sin interés !!</p>            
-            
-            <h3> Batidora de Pie Yelmo</h3>        
-            <img src="./Imagenes/Batidora.png" alt="batidora" width="100px">
-            <p> Batidora de Pie Yelmo 600w todos los Viernes 12 cuotas sin interes + 5% de descuento !!</p>            
-            
-            <h3> Juguera Ultracomb</h3>
-            <img src="./Imagenes/Juguera.png" alt="juguera" width="100px">
-            <p> Juguera Ultracomb acero inoxidable 880w antes $ 13.800 ahora $ 11.800</p>
-            
-    </section>
-    
-    <section id="informacion">
-        <h2> Información </h2>
-        <section id="contactos">
-            <a href="./Contacto.html" target="_blank"> Contactos </a>
-        </section>        
-        <ul>
-            <li>
-                <a href="">Facebook</a>            
-            </li>
-            <li>
-                <a href="">Instagram</a>            
-            </li>
-        </ul>
+        <h2> ¡¡ OFERTAS IMPERDIBLES !! </h2>
+        <div class="contenedor-ofertas">
+            <div>
+                <h3> Horno Yelmo 52 lts</h3>
+                <img src="./Imagenes/Horno Electrico.png" alt="horno electrico" width="100px">
+                <p> Horno con doble anafe color negro</p>
+                <p><b>Aprovecha con Visa en 12 cuotas sin interés durante !!</b></p>
+            </div>
+            <div>
+                <h3> Batidora de Pie Yelmo</h3>
+                <img src="./Imagenes/Batidora.png" alt="batidora" width="100px">
+                <p> Batidora de Pie Yelmo 600w </p>
+                <p><b>Todos los Viernes 12 cuotas sin interés + 5% de descuento !!</b></p>
+            </div>
+            <div>
+                <h3> Juguera Ultracomb</h3>
+                <img src="./Imagenes/Juguera.png" alt="juguera" width="100px">
+                <p> Juguera Ultracomb acero inoxidable 880w</p>
+                <p><b>Antes $ <del>13.800</del> Ahora $ 11.800 </b></p>
+            </div>
+        </div>
     </section>
 
-    <section id="medios-de-pago">
-        <h2> Medios de Pago </h2>
-        <ul>
-            <li> Visa </li>
-            <li> Mastercard </li>
-            <li> Mercado Pago </li>
-            <li> Transferencia </li>            
-        </ul>    
-    </section>
-    
-    <section id="encontranos">
-        <h2> Encontranos</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23382.766612634616!2d-61.4928378766048!3d-33.46223870245735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1ses!2sar!4v1659920675728!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
+    <div class="container-info">
+        
+        <section id="informacion">
+            <h2> Información </h2>
+            <section id="contactos">
+                <a href="./Contacto.html" target="_blank"> Contactanos </a>
+            </section>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com">
+                        <i class="fa-brands fa-facebook"> facebook</i>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com">
+                        <i class="fa-brands fa-instagram"> instagram</i>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com">
+                        <i class="fa-brands fa-twitter"> twitter</i>
+                </li>
+                <li>
+                    <i class="fa-brands fa-whatsapp"> 3465 505250</i>
+                </li>
+            </ul>
+        </section>
+
+        <section id="medios-de-pago">
+            <h2> Medios de Pago </h2>
+            <ul>
+                <li> Visa </li>
+                <li> Mastercard </li>
+                <li> Mercado Pago </li>
+                <li> Transferencia </li>
+            </ul>
+        </section>
+
+        <section id="encontranos">
+            <h2> Encontranos</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23382.766612634616!2d-61.4928378766048!3d-33.46223870245735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1ses!2sar!4v1659920675728!5m2!1ses!2sar"
+                width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+    </div>
 
     <footer>
-        <span> Raul Lopez Ibarra - </span> <a href="">Instragram</a>
+        <span> Raul Lopez Ibarra - </span>
+        <a href="https://www.instagram.com">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://www.twitter.com">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
     </footer>
 </body>
+
 </html>

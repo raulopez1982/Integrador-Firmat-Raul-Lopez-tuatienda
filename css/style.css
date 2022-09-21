@@ -1,0 +1,194 @@
+body {
+    margin: 0px;
+    background-color: rgb(228, 193, 147);
+    font-family: 'Noto Serif Georgian', serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+        /* FOOTER */
+
+footer {
+    background-color: red;
+    color: white;
+    padding: 0.2em;
+    text-align: center;
+    bottom: 0px;
+    width: calc(100% - 2*0.2em);
+}
+
+        /* HEADER */
+
+header {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 0.3em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    top: 0px;
+    width: calc(100% - 2*0.3em);
+    align-items: center;
+    position: fixed;
+    border-bottom: 2px solid black;
+}
+
+body li a:hover {
+    background: #ef8354;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    margin: 0px;
+}
+
+.logo {
+    height: 2em;
+}
+
+
+        /* Seccion fotos carrusel*/
+
+.fotos-ofertas {
+    margin-top: 50px;
+    height: 300px;
+    width: calc(100% - 2*0.3em);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+        /* Seccion: Rubros */
+
+
+.rubros section{
+    text-align: center;    
+}
+
+.rubros {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-left: 20px;
+    width: 100%
+}
+
+.electrodomesticos {
+    background-color: coral;
+    width: 20%;
+    height: 300px;
+    float: left;
+    flex-direction: column;
+}
+
+.herramientas {
+    background-color: cornflowerblue;
+    width: 20%;
+    height: 300px;
+    float: left;
+    flex-direction: column;
+}
+
+.electronica {
+    background-color: coral;
+    width: 18%;
+    height: 300px;
+    float: left;
+    flex-direction: column;
+}
+
+.pesca {
+    background-color: cornflowerblue;
+    width: 20%;
+    height: 300px;
+    float: left;
+    flex-direction: column;
+}
+
+.bazar {
+    background-color: coral;
+    width: 20%;
+    height: 300px;
+    float: left;
+    flex-direction: column;
+}
+
+
+            /* Seccion Ofertas  */
+
+#ofertas h2, #ofertas h3,
+    p {
+        text-align: center;
+    }
+
+#ofertas p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+#ofertas {    
+    border-bottom: 2px solid red;
+    min-height: 100vh;
+}
+
+#ofertas img {
+    width: 40%;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 30%;
+}
+
+.contenedor-ofertas {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.contenedor-ofertas>div {
+    flex-basis: 30%;
+    border: 2px solid black;
+    margin-bottom: 2em;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+
+            /* Seccion Contactos  */
+   
+.container-info {
+    min-height:auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;    
+}
+
+.container-info>section {
+    flex-basis: 20%;
+    border: 2px solid black;
+    margin-bottom: 1em;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#informacion{    
+    margin-top: 20px;
+    line-height: 40px;
+}
+
+#informacion h2{
+    text-align: center;
+}
+
