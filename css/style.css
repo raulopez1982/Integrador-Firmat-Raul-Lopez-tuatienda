@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background-color: rgb(228, 193, 147);
+
     font-family: 'Noto Serif Georgian', serif;
 }
 
@@ -9,7 +9,7 @@ a {
     text-decoration: none;
 }
 
-        /* FOOTER */
+/* FOOTER */
 
 footer {
     background-color: red;
@@ -20,7 +20,7 @@ footer {
     width: calc(100% - 2*0.2em);
 }
 
-        /* HEADER */
+/* HEADER */
 
 header {
     background-color: red;
@@ -43,8 +43,12 @@ body li a:hover {
     background: #ef8354;
 }
 
-li {
-    display: inline;
+
+.menu-rubros li {
+    margin-left: 10px;
+    padding-left: 20px;
+    float: left;
+    list-style: none;
 }
 
 ul {
@@ -56,29 +60,37 @@ ul {
 }
 
 
-        /* Seccion fotos carrusel*/
+/* Seccion fotos carrusel*/
 
 .fotos-ofertas {
     margin-top: 50px;
     height: 300px;
-    width: calc(100% - 2*0.3em);
+    width: calc(100% - 2*0.1em);
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background: white;
 }
 
 
-        /* Seccion: Rubros */
+/* Seccion: Rubros */
 
 
-.rubros section{
-    text-align: center;    
+.rubros h2 {
+    text-align: center;
+}
+
+.rubros li {
+    list-style: square;
+    font-size: 25px;
 }
 
 .rubros {
+    background-color: cornflowerblue;
+    display: flex;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-    margin-left: 20px;
+    justify-content: center;
     width: 100%
 }
 
@@ -86,7 +98,6 @@ ul {
     background-color: coral;
     width: 20%;
     height: 300px;
-    float: left;
     flex-direction: column;
 }
 
@@ -94,7 +105,6 @@ ul {
     background-color: cornflowerblue;
     width: 20%;
     height: 300px;
-    float: left;
     flex-direction: column;
 }
 
@@ -102,7 +112,6 @@ ul {
     background-color: coral;
     width: 18%;
     height: 300px;
-    float: left;
     flex-direction: column;
 }
 
@@ -110,7 +119,6 @@ ul {
     background-color: cornflowerblue;
     width: 20%;
     height: 300px;
-    float: left;
     flex-direction: column;
 }
 
@@ -118,33 +126,39 @@ ul {
     background-color: coral;
     width: 20%;
     height: 300px;
-    float: left;
     flex-direction: column;
 }
 
 
-            /* Seccion Ofertas  */
+/* Seccion Ofertas  */
 
-#ofertas h2, #ofertas h3,
-    p {
-        text-align: center;
-    }
+#ofertas {
+    background-color: darkcyan;
+    align-content: center;
+}
+
+
+#ofertas h2,
+#ofertas h3,
+p {
+    text-align: center;
+}
 
 #ofertas p {
     font-size: 20px;
     font-style: italic;
 }
 
-#ofertas {    
-    border-bottom: 2px solid red;
+#ofertas {
+    background-color: white;
     min-height: 100vh;
 }
 
 #ofertas img {
-    width: 40%;
+    width: 100%;
+    height: 50%;
     border-radius: 20px;
     background-color: white;
-    margin-left: 30%;
 }
 
 .contenedor-ofertas {
@@ -164,31 +178,56 @@ ul {
 }
 
 
-            /* Seccion Contactos  */
-   
+/* Seccion Información  */
+
 .container-info {
-    min-height:auto;
+    background-color: green;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-content: space-around;    
+    flex-flow: row nowrap;
+    flex-wrap: wrap;
+    align-items: baseline;
 }
 
-.container-info>section {
+.container-info>div {
     flex-basis: 20%;
     border: 2px solid black;
-    margin-bottom: 1em;
+    margin-bottom: 20px;
     border-radius: 20px;
-    display: flex;
-    flex-flow: column wrap;
 }
 
-#informacion{    
+#informacion {
+    margin-left: 30px;
     margin-top: 20px;
     line-height: 40px;
 }
 
-#informacion h2{
+#informacion h2 {
     text-align: center;
 }
 
+#medios-de-pago {
+    flex-basis: 20%;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+    justify-content: center;
+    margin-left: 50px;
+    line-height: 40px;
+}
+
+#medios-de-pago h2 {
+    color: black;
+    text-align: center;
+}
+
+#medios-de-pago ul {
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+#mapa {
+    margin-top: 20px;
+    align-content: center;
+    margin-left: 50%;
+}
